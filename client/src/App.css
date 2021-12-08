@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+@keyframes transitionUp {
+  from {
+    opacity: 0;
+    transform: translateY(600px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes transitionDown {
+  from {
+    opacity: 0;
+    transform: translateY(-600px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+body {
+  background-color: black;
+}
+
+ul li:before {
+  content: "\2022 ";
+  color: white;
+  padding-right: 0.5em;
+}
+
+.tabs {
+  height: 80px;
+  margin-top: -80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.tabs > a {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.back__logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.back__logo > a {
+  color: white;
+}
+
+/* Scrollbar beautifying */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 20px;
+  border: 8px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+@media only screen and (max-width: 1000px) {
+  .tabs > a {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  @keyframes home {
+    0% {
+      filter: blur(10px);
+      opacity: 0.2;
+    }
+    40% {
+      filter: blur(8px);
+      opacity: 0.6;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes animate__service {
+    from {
+      background-color: white;
+      transform: translateX(-400px);
+      filter: blur(4px);
+    }
+    to {
+      filter: blur(0px);
+    }
+  }
+  @keyframes animate__work {
+    from {
+      background-color: white;
+      transform: translateX(400px);
+      filter: blur(4px);
+    }
+    to {
+      filter: blur(0px);
+    }
+  }
+
+  @keyframes animate__about {
+    from {
+      background-color: white;
+      transform: translateX(400px);
+      filter: blur(4px);
+    }
+    to {
+      filter: blur(0px);
+    }
+  }
+
+  @keyframes fading__animate {
+    from {
+      filter: blur(2px);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes subTitles__animations__work {
+    from {
+      transform: translateY(400px);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

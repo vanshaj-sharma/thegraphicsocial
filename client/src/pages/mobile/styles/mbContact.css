@@ -1,0 +1,82 @@
+@media only screen and (max-width: 720px) {
+  .contact__title {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .mb__button {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    height: 60px;
+    width: 250px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+
+  .mb__button__toggle {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .mb__button__toggle > a {
+    color: white;
+    padding-left: 10px;
+    margin-left: 33px;
+  }
+
+  .contact__content {
+    color: #ffffff;
+    /* margin-top: 3rem; */
+    margin-left: 2rem;
+  }
+
+  .contact__content > h3 {
+    margin-top: 2.5rem;
+  }
+
+  .contact__form {
+    margin-top: 10px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .contact__form > input {
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .contact__form > button {
+    margin-top: 10px;
+  }
+  .mbGetLoc {
+    display: none;
+    width: 270px;
+    height: 270px;
+    border: 0;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .contact__activate {
+    display: flex;
+    animation: toggleTransitionDown 0.8s;
+  }
+
+  @keyframes toggleTransitionDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.Photos__mb {
+  margin-right: 4rem;
+  margin-top: 0.5rem;
+  /* min-width: 10rem; */
+  position: relative;
+  text-align: center;
+}
+.Photos__content__mb {
+  height: 100px;
+  width: 100px;
+  /* border-radius: 50%; */
+  background-color: aliceblue;
+}
+.Photos__title__mb {
+  font-size: 1rem;
+}
+
+.team__container__mb {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+.animation_box {
+  animation: fading__animate ease-in-out 1s;
+}

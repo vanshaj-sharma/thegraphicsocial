@@ -1,0 +1,28 @@
+.mobile {
+  display: none;
+}
+.social__box {
+  height: 100vh;
+  background: linear-gradient(to right, #000000 50%, #ffffff 50%);
+  animation: transitionDown 0.7s;
+}
+
+.social__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.social__content > img {
+  padding-left: 9rem;
+  height: 200px;
+  width: 400px;
+}
+@media only screen and (max-width: 720px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}

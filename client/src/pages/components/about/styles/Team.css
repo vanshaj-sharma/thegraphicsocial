@@ -1,0 +1,17 @@
+.Photos {
+  margin: 10px;
+  min-width: 20rem;
+}
+.Photos__content {
+  margin-left: 1rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+
+.team__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,101 @@
+.mobile {
+  display: none;
+}
+
+.contact__box {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin-bottom: 12px;
+  animation: transitionUp 0.9s;
+}
+
+.contact__heading > h1 {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+.contact__left {
+  padding-top: 2.5rem;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+.contact__left__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact__left__box > p {
+  margin-top: 2rem;
+}
+.contact__left__box > p:nth-child(even) {
+  font-size: 1.3rem;
+}
+.button {
+  margin-top: 3.2rem;
+  margin-left: 5rem;
+  height: 60px;
+  width: 200px;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.button__toggle {
+  display: none;
+  margin-top: 1rem;
+  margin-left: 4.5rem;
+}
+.button__toggle > a {
+  color: white;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+.button__toggle__active {
+  display: flex;
+}
+.schedule__form {
+  margin-top: 10px;
+  display: none;
+  flex-direction: column;
+  max-width: 400px;
+}
+.schedule__form > input {
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.schedule__form > button {
+  margin-top: 10px;
+}
+.getLoc {
+  display: none;
+  border: 0;
+  margin-top: 10px;
+  margin-left: 1.5rem;
+  padding: 10px;
+  width: 20rem;
+  height: 12rem;
+}
+.activate {
+  display: flex;
+  animation: toggleTransitionDown 0.6s;
+}
+
+@keyframes toggleTransitionDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@media only screen and (max-width: 720px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,31 @@
+@media only screen and (max-width: 720px) {
+  .s_title {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .s_headings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .s_headings > h1 {
+    color: #ffffff;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    animation: fading__animate ease-in-out 1s;
+  }
+  .heading__deactivate {
+    display: none;
+  }
+  .menu {
+    animation: animate__service ease-in-out 1s;
+    overflow-y: scroll;
+    height: 90vh;
+  }
+}

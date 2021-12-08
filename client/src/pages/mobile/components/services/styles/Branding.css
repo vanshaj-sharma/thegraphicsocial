@@ -1,0 +1,17 @@
+@media only screen and (max-width: 720px) {
+  .s_brand {
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .brand__box {
+    animation: fading__animate ease-in 1s;
+  }
+  .box {
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

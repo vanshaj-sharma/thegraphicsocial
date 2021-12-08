@@ -1,0 +1,49 @@
+@media only screen and (max-width: 720px) {
+  .mbHome__box {
+    height: 100vh;
+    background: linear-gradient(to top, #000000 50%, #ffffff 50%);
+    animation: home ease-in-out 1s;
+  }
+  .mbHome__box > a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .top__left {
+    position: absolute;
+    top: 160px;
+    left: -90px;
+    transform: rotate(-90deg);
+  }
+  .top__right {
+    position: absolute;
+    top: 160px;
+    right: -60px;
+    transform: rotate(-90deg);
+  }
+  .bottom__left {
+    color: white !important;
+    position: absolute;
+    top: 480px;
+    left: -60px;
+    transform: rotate(-90deg);
+  }
+  .bottom__right {
+    color: white !important;
+    position: absolute;
+    top: 480px;
+    right: -30px;
+    transform: rotate(-90deg);
+  }
+  .mbHome__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .mbHome__content > img {
+    height: 150px;
+    width: 200px;
+  }
+}

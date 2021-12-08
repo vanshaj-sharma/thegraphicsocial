@@ -1,0 +1,34 @@
+@media only screen and (max-width: 720px) {
+  .about__page__mb {
+    height: 90vh;
+    overflow-y: scroll;
+    animation: animate__about ease-in-out 1s;
+  }
+  .about__title {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .about__content {
+    color: #ffffff;
+    /* margin-top: 3rem; */
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 10px;
+  }
+
+  .mb__button__ab {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 60px;
+    width: 250px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+}
