@@ -16,6 +16,8 @@ app.get("/test", (req, res) => {
   res.send("Backend is working properly!!");
 });
 
+//test up
+
 const port = process.env.PORT || 5000;
 
 app.get("*", (req, res) => {
