@@ -1,17 +1,10 @@
 .Card {
   margin: 10px;
 }
-.card__content {
-  height: 195px;
-  background-color: aliceblue;
-}
-.card__content > iframe {
-  height: 500px;
-  width: 500px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 .card__title {
   padding: 5px;
   background-color: #ff7675;
+}
+.card__content > a {
+  text-decoration: none;
 }

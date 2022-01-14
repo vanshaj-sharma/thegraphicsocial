@@ -1,21 +1,15 @@
 import "./styles/Card.css";
-function Card({ pdf, title }) {
+function Card({ pdf, title, pic }) {
   return (
     <>
       <div className="Card">
         <div className="card__content">
-          <iframe title="pdf" src={pdf + "#toolbar=0"} />
-        </div>
-        <div className="card__title d-flex justify-content-center">
-          <h4>
-            <a
-              target="__blank"
-              href={pdf}
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              {title}
-            </a>
-          </h4>
+          <a target="__blank" href={pdf}>
+            <img className="img-fluid" src={pic} alt="" />
+            <div className="card__title d-flex justify-content-center">
+              <h4 style={{ color: "white" }}>{title}</h4>
+            </div>
+          </a>
         </div>
       </div>
     </>
