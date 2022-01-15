@@ -36,8 +36,13 @@
     margin-left: 2rem;
   }
 
-  .contact__content > h3 {
+  .contact__content > h3,
+  a {
     margin-top: 2.5rem;
+  }
+  .contact__content > a {
+    color: white;
+    text-decoration: none;
   }
 
   .contact__form {

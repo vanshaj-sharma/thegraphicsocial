@@ -110,11 +110,18 @@ function MbContact() {
         </div>
         <div className="contact__content">
           <h3>ADDRESS</h3>
-          <p>BK DUTT GATE, AMRITSAR, PUNJAB, IN 143001</p>
+          <a
+            target="__blank"
+            href="https://www.google.com/maps/place/Bala+Ji+Refrigeration+Works/@31.621764,74.866744,19z/data=!4m5!3m4!1s0x0:0xcfceb25f0cf9e679!8m2!3d31.6217637!4d74.8667439?hl=en"
+          >
+            BK DUTT GATE, AMRITSAR, PUNJAB, IN 143001
+          </a>
           <h3>PHONE</h3>
-          <p>+91-95014-46674</p>
+          <a href="tel:+919501446674">+91-95014-46674</a>
           <h3>MAIL</h3>
-          <p>CONTACT@ THEGRAPHIC SOCIAL .COM</p>
+          <a href="mailto:CONTACT@THEGRAPHICSOCIAL.COM">
+            CONTACT@ THEGRAPHIC SOCIAL .COM
+          </a>
         </div>
       </div>
     </>
