@@ -1,5 +1,5 @@
 import "./styles/Home.css";
-import Logo from "./assets/logo.png";
+import Logo from "./assets/LogoWebsite.svg";
 import { NavLink } from "react-router-dom";
 import mbHome from "./mobile/mbHome";
 
@@ -9,7 +9,7 @@ function Home() {
       <div className="desktop">
         <div className="social__box">
           <div className="social__content">
-            <img src={Logo} alt="Social logo" />
+            <embed src={Logo} alt="Social logo" />
           </div>
           <div className="tabs">
             <NavLink to="/services">SERVICES</NavLink>
