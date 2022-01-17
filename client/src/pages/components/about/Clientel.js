@@ -1,10 +1,4 @@
 import "./styles/Clientel.css";
-import c1 from "../../assets/clientel/c1.png";
-import c2 from "../../assets/clientel/c2.png";
-import c3 from "../../assets/clientel/c3.png";
-import c4 from "../../assets/clientel/c4.png";
-import c5 from "../../assets/clientel/c5.png";
-import c6 from "../../assets/clientel/c6.png";
 
 import hirect from "../../assets/clientel/hirect.svg";
 import meesho from "../../assets/clientel/meesho.svg";
