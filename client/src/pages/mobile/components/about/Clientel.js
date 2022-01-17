@@ -1,10 +1,10 @@
 import "./styles/Clientel.css";
-import c1 from "../../../../pages/assets/clientel/c1.png";
-import c2 from "../../../../pages/assets/clientel/c2.png";
-import c3 from "../../../../pages/assets/clientel/c3.png";
-import c4 from "../../../../pages/assets/clientel/c4.png";
-import c5 from "../../../../pages/assets/clientel/c5.png";
-import c6 from "../../../../pages/assets/clientel/c6.png";
+import hirect from "../../../../pages/assets/clientel/hirect.svg";
+import meesho from "../../../../pages/assets/clientel/meesho.svg";
+import Moj from "../../../../pages/assets/clientel/Moj.svg";
+import buddweiser from "../../../../pages/assets/clientel/buddweiser.svg";
+import redbull from "../../../../pages/assets/clientel/redbull.svg";
+import Nissin from "../../../../pages/assets/clientel/Nissin.svg";
 function Clientel() {
   return (
     <>
@@ -14,12 +14,42 @@ function Clientel() {
           style={{ marginRight: "2rem" }}
           className="team__container__mb client__content"
         >
-          <img className="img-fluid" src={c1} alt="" />
-          <img className="img-fluid" src={c2} alt="" />
-          <img className="img-fluid" src={c3} alt="" />
-          <img className="img-fluid" src={c4} alt="" />
-          <img className="img-fluid" src={c5} alt="" />
-          <img className="img-fluid" src={c6} alt="" />
+          <embed
+            style={{ height: "7rem" }}
+            className="img-fluid"
+            src={buddweiser}
+            alt=""
+          />
+          <embed
+            style={{ height: "8rem" }}
+            className="img-fluid"
+            src={redbull}
+            alt=""
+          />
+          <embed
+            style={{ height: "8rem" }}
+            className="img-fluid"
+            src={Nissin}
+            alt=""
+          />
+          <embed
+            style={{ height: "5rem" }}
+            className="img-fluid"
+            src={hirect}
+            alt=""
+          />
+          <embed
+            style={{ height: "8rem" }}
+            className="img-fluid"
+            src={meesho}
+            alt=""
+          />
+          <embed
+            style={{ height: "8rem" }}
+            className="img-fluid"
+            src={Moj}
+            alt=""
+          />
         </div>
       </div>
     </>
